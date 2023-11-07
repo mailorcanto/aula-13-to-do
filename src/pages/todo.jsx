@@ -1,4 +1,4 @@
-import React, { useState } from "react"; 
+import React, { useState } from "react"; //useState salva no estado da aplicação os valores que estamos utilizando  
 import Form from "../components/form/index.jsx"; 
 import Lista from "../components/list/index.jsx";
 import "./todo.css"
