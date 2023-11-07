@@ -1,5 +1,3 @@
-import React from "react";
-
 const Form = ({ task, handleChangeInput, handleAddItemToList }) => { 
     return ( 
     <form onSubmit={handleAddItemToList}> 
