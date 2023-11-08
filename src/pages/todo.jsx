@@ -6,7 +6,7 @@ import "./todo.css"
 const Todo = () => { 
   const [task, setTask] = useState(""); 
   const [itemsList, setItemsList] = useState([]); //comentar linha se for usar localStorage
-  //const [itemsList, setItemsList] = useState(; //código para armazenar dados localmente (NÃO RECOMENDADO)
+  //const [itemsList, setItemsList] = useState( //código para armazenar dados localmente (NÃO RECOMENDADO)
   //JSON.parse(localStorage.getItem('tasks')) || []); //código para armazenar dados localmente (NÃO RECOMENDADO)
 
 const handleChangeInput = (event) => { 
